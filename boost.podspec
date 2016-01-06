@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name	= "boost"
   s.version	= "1.59.0"
-  s.summary	= "Boost provides free peer-reviewed portable C++ source libraries."
+  s.summary	= "Rene Rivera original boost podspec with ptr_container subspec added."
   s.homepage	= "http://www.boost.org"
   s.license	= { :type => "Boost Software License",
 		    :file => "LICENSE_1_0.txt" }
-  s.author	= "Rene Rivera"
+  s.author	= "Alexandr Barenboym"
   s.source	= { :http => "http://sourceforge.net/projects/boost/files/boost/1.59.0/boost_1_59_0.tar.gz" }
 
   s.ios.deployment_target = "4.0"
